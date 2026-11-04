@@ -30,13 +30,23 @@ export const PERSONAL_INFO = {
     ]
   },
   education: {
-    degree: 'Bachelor of Engineering (BE)',
-    field: 'Computer Science and Engineering',
-    institution: 'Pacific School of Engineering',
-    location: 'Gujarat, India',
-    status: 'Currently pursuing • 2nd Year',
-    period: '2025 – 2029',
-    highlights: [
+    Matrix: '76.66%',
+    Institute: 'Christ the king high school',
+    Location: 'Gorakhpur, Nautanwa', 
+    Period: '2022-2023',
+
+    Intermidiate(Non-Medical): '73.33%',
+    Institution: 'Mahatma Gandhi Intermidiate College',
+    Location: 'Gorakhpur, Uttar Pradesh',
+    Period: '2024-2025',
+    
+    Degree: 'Bachelor of Engineering (BE)',
+    Field: 'Computer Science and Engineering',
+    Institution: 'Pacific School of Engineering',
+    Location: 'Gujarat, India',
+    Status: 'Currently pursuing • 2nd Year',
+    Period: '2025 – 2029',
+   Highlights: [
       'Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Computer Organization',
       'Active focus on hands-on practical software development and modern engineering stacks',
       'Participating in peer technical initiatives and development collaborations'
@@ -69,25 +79,25 @@ export const NAV_ITEMS: NavItem[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     platform: 'GitHub',
-    url: PERSONAL_INFO.contact.github,
+    url: 'https://github.com/devkhaticrhul-ship-it',
     icon: 'github',
     isPlaceholder: true,
     displayHandle: 'github.com/devkhaticrhul-ship-it'
   },
   {
     platform: 'LinkedIn',
-    url: PERSONAL_INFO.contact.linkedin,
+    url: 'https://www.linkedin.com/in/rahul-kumar4173',
     icon: 'linkedin',
     isPlaceholder: true,
     displayHandle: 'linkedin.com/in/rahul-kumar4173'
   },
   {
     platform: 'Email',
-    url: `mailto:${PERSONAL_INFO.contact.email}`,
+    url: 'mail to:${devkhaticrhul@gmail.com}',
     icon: 'mail',
     isPlaceholder: true,
-    displayHandle: PERSONAL_INFO.contact.email
-  }
+    displayHandle: 'devkhaticrhul@gmail.com'
+  },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
@@ -149,7 +159,7 @@ export const FEATURED_PROJECTS: Project[] = [
     extendedDescription:
       'Carverse is an in-development automotive information platform built with Next.js (App Router), TypeScript, and MongoDB. It aims to eliminate fragmented car research by structuring vehicle trims, technical specifications, and user features into an accessible, high-performance web interface. The project incorporates modern authentication, responsive styling, and modular component design.',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'MongoDB', 'Mongoose', 'NextAuth'],
-    status: 'In Development',
+    status: 'Developed',
     featured: true,
     category: 'Full-Stack',
     githubUrl: 'https://github.com/devkhaticrhul-ship-it/carverse',
